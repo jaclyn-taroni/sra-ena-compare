@@ -1,0 +1,2 @@
+# ignore data directory that contains all the large fastq files
+data/
