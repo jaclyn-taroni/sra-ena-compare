@@ -6,3 +6,6 @@ quant/
 
 # transcriptome indices
 transcriptome_index/
+
+# don't want to track history of R commands
+\.Rhistory
