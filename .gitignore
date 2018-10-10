@@ -3,3 +3,6 @@ data/
 
 # directory that holds the salmon quant output
 quant/
+
+# transcriptome indices
+transcriptome_index/
