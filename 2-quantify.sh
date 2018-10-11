@@ -55,3 +55,10 @@ do
 	  --seqBias --dumpEq --writeUnmappedNames --biasSpeedSamp 5
   done
 done
+
+# now summarize to gene with tximport
+mkdir gene_level
+Rscript tximport.R --quant_dir quant/SRP023539/SRA --txi_out gene_level/SRP023539_SRA.tsv
+Rscript tximport.R --quant_dir quant/SRP023539/ENA --txi_out gene_level/SRP023539_ENA.tsv
+Rscript tximport.R --quant_dir quant/SRP036035/SRA --txi_out gene_level/SRP036035_SRA.tsv
+Rscript tximport.R --quant_dir quant/SRP036035/ENA --txi_out gene_level/SRP036035_ENA.tsv
