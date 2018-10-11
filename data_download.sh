@@ -12,7 +12,7 @@ mkdir SRP023539 && cd SRP023539
 mkdir ENA && cd ENA
 
 # samples from SRP023539
-declare -a arr=("SRR873426" "SRR873427" "SRR873428" "SRR873429" "SRR873430" "SRR873436")
+declare -a arr=("SRR873426" "SRR873427" "SRR873428" "SRR873429" "SRR873430")
 
 for samp in "${arr[@]}"
 do
